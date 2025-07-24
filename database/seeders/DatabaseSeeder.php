@@ -25,6 +25,36 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
         ]);
 
+        User::factory()->create([
+            'name' => 'Test1',
+            'email' => 'test1@example.com',
+        ]);
+
+        User::factory()->create([
+            'name' => 'Test2',
+            'email' => 'test2@example.com',
+        ]);
+
+        User::factory()->create([
+            'name' => 'Test3',
+            'email' => 'test3@example.com',
+        ]);
+
+        User::factory()->create([
+            'name' => 'Test4',
+            'email' => 'test4@example.com',
+        ]);
+
+        User::factory()->create([
+            'name' => 'Test5',
+            'email' => 'test5@example.com',
+        ]);
+
+        User::factory()->create([
+            'name' => 'Test6',
+            'email' => 'test6@example.com',
+        ]);
+
         $this->call([
             MunicipioSeeder::class,
             EjeSeeder::class,
